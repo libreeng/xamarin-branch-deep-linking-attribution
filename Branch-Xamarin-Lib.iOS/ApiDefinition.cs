@@ -185,11 +185,11 @@ namespace IOSNativeBranch {
         [Export("clearTrackingInformation")]
         void ClearTrackingInformation();
 
-        // +(BNCPreferenceHelper *)preferenceHelper;
+        // +(BNCPreferenceHelper *)sharedInstance;
         [Static]
-        [Export("preferenceHelper")]
+        [Export("sharedInstance")]
         //[Verify(MethodToProperty)]
-        BNCPreferenceHelper PreferenceHelper { get; }
+        BNCPreferenceHelper SharedInstance { get; }
 
         // -(NSString *)getAPIBaseURL;
         [Export("getAPIBaseURL")]
