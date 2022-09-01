@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Branch-Xamarin-Linking-SDK</id>
+    <id>Librestream.Branch-Xamarin-Linking-SDK</id>
     <title>Branch Xamarin SDK</title>
     <summary>Hosted deep links for your Xamarin-based Android or iOS app by Branch</summary>
-    <version>8.0.0</version>
+    <version>8.0.0.1</version>
     <authors>Branch Metrics, Inc.</authors>
     <owners>Branch Metrics, Inc.</owners>
     <projectUrl>https://github.com/BranchMetrics/Xamarin-Deferred-Deep-Linking-SDK</projectUrl>
